@@ -1,39 +1,33 @@
-# Deadlock Project
+Deadlock Project
+Introduction
+In the complex and dynamic world of operating systems, resource management in a way that optimizes system performance without disruption is of paramount importance. One of the major challenges in this area is a phenomenon called deadlock, which can severely impact system performance. This project is designed to provide a practical and comprehensive understanding of the occurrence, detection, and resolution of deadlocks in operating systems. It consists of three main phases, each addressing a specific aspect of the deadlock problem.
 
-## مقدمه:
-در دنیای پیچیده و پویای سیستم‌های عامل، مدیریت منابع به نحوی که عملکرد سیستم بهینه و بدون اختلال باشد، اهمیت فراوانی دارد. یکی از چالش‌های مهم در این زمینه، پدیده‌ای به نام بن‌بست است که می‌تواند عملکرد سیستم را به شدت تحت تاثیر قرار دهد. این پروژه با هدف ارائه یک درک عملی و جامع از نحوه وقوع، تشخیص و رفع بن‌بست در سیستم عامل طراحی شده است. این پروژه شامل سه فاز اصلی است که هر یک به جنبه‌ای خاص از مسئله بن‌بست می‌پردازند.
+How to Run the Code
+To execute and test the project code, follow these steps:
 
-## نحوه اجرای کد:
-برای اجرای کد و تست پروژه، می‌توانید این مراحل را دنبال کنید:
+Install the required libraries:
 
-1. ابتدا کتابخانه‌های مورد نیاز را نصب کنید:
- ```
+Copy code
 pip install numpy matplotlib networkx
- ```
-2. سپس فایل‌های پروژه را دانلود و از حالت فشرده خارج کنید.
+Download the project files and extract them from the compressed format.
 
-3. به دایرکتوری پروژه در خط فرمان یا ترمینال مربوطه بروید:
- ```
+Navigate to the project directory in the command line or terminal:
+
+bash
+Copy code
 cd /path/to/Deadlock-Project
- ```
+Test different phases of the project by running the respective files:
 
-
-4. فازهای مختلف پروژه را با اجرای فایل‌های مربوطه تست کنید:
-- برای اجرای فاز اول:
-  ```
-  python phase1.py
-  ```
-- برای اجرای فاز دوم:
-  ```
-  python phase2.py
-  ```
-- برای اجرای فاز سوم:
-  ```
-  python phase3.py
-  ```
-
-## کتابخانه‌های مورد نیاز:
-- NumPy
-- Matplotlib
-- NetworkX
-
+For Phase 1:
+Copy code
+python phase1.py
+For Phase 2:
+Copy code
+python phase2.py
+For Phase 3:
+Copy code
+python phase3.py
+Required Libraries
+NumPy
+Matplotlib
+NetworkX
